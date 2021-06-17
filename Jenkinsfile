@@ -38,8 +38,8 @@ pipeline {
 			gitTool: 'Default',
 			submoduleCfg: [],
 			userRemoteConfigs: [[
-				credentialsId: 'GitHub_julianpinilla99',
-				url:'https://github.com/julianp22/CineBoleteria.git'
+				credentialsId: 'GitHub_JordanVeraCCeiba',
+				url:'https://github.com/JordanVeraCCeiba/pagos.git'
 			]]
 		])
 
