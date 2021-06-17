@@ -14,10 +14,8 @@ public class ComandoNominaTestDataBuilder {
 
     public ComandoNominaTestDataBuilder() {
         idEmpleado = 1L;
-        fechaPago = "26/06/2021";
-        pagoEmpleado = 200000D;
-        salud = 80000D;
-        pension = 80000D;
+        fechaPago = "21/06/2021";
+        pagoEmpleado = 2000000.0;
     }
 
     public ComandoNominaTestDataBuilder conFechaPago(String fecha) {

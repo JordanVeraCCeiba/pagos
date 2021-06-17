@@ -38,7 +38,7 @@ public class ComandoControladorNominaTest {
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(nomina)))
                 .andExpect(status().isOk())
-                .andExpect(content().json("{'valor': 2}"));
+                .andExpect(content().json("{'valor': 1}"));
     }
 
     @Test
@@ -50,8 +50,7 @@ public class ComandoControladorNominaTest {
         mocMvc.perform(post("/nomina")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(nomina)))
-                .andExpect(status().is4xxClientError())
-                .andExpect(content().json("{'valor': 2}"));
+                .andExpect(status().is4xxClientError());
     }
 
 }

@@ -1,12 +1,0 @@
-
-L
-java:S1128	"/Remove this unused import 'java.util.Calendar'.(ÿÛö´8èˆÀ±¡/
-U
-java:S1128"8Remove this unused import 'java.util.GregorianCalendar'.(Ž€û½8éˆÀ±¡/
-H
-java:S1128
-"+Remove this unused import 'java.util.Date'.(¸…¼ü8éˆÀ±¡/
-T
-java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8éˆÀ±¡/
-R
-java:S1128"5Remove this unused import 'java.text.ParseException'.(ñ®ï•8éˆÀ±¡/

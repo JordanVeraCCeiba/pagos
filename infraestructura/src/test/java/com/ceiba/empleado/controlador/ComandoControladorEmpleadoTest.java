@@ -74,8 +74,7 @@ public class ComandoControladorEmpleadoTest {
         mocMvc.perform(post("/empleados")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(empleado)))
-                .andExpect(status().is4xxClientError())
-                .andExpect(content().json("{'valor': 2}"));
+                .andExpect(status().is4xxClientError());
     }
 
     @Test
@@ -88,7 +87,7 @@ public class ComandoControladorEmpleadoTest {
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(objectMapper.writeValueAsString(empleado)))
                 .andExpect(status().isOk())
-                .andExpect(content().json("{'valor': 2}"));
+                .andExpect(content().json("{'valor': 3}"));
     }
 
 }

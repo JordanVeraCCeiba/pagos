@@ -3,6 +3,41 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../comun/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Jenkinsfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/aplicacion/src/main/java/com/ceiba/nomina/comando/ComandoNomina.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/aplicacion/src/main/java/com/ceiba/nomina/comando/fabrica/FabricaNomina.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/infraestructura/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/infraestructura/src/test/java/com/ceiba/empleado/controlador/ComandoControladorEmpleadoTest.java">
           <value>
             <set />
@@ -14,6 +49,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/infraestructura/src/test/java/com/ceiba/nomina/controlador/ComandoControladorNominaTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/infraestructura/src/test/java/com/ceiba/nomina/controlador/ConsultaControladorNominaTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/infraestructura/src/test/java/com/ceiba/nomina/testdatabuilder/ComandoNominaTestDataBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/infraestructura/src/test/resources/db/migration/DML/V1.1__data.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/sonar-project.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/application.yaml">
           <value>
             <set />
           </value>
